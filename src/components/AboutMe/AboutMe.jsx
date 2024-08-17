@@ -35,9 +35,10 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-        <div className="text-center">
-          <img src={lb} alt="Break line" className="img-fluid" />
-        </div>
+        <div className="text-center d-none d-lg-block">
+  <img src={lb} alt="Break line" className="img-fluid" />
+</div>
+
       </div>
     </section>
   );
