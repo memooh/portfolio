@@ -1,6 +1,8 @@
 import React from "react";
 import "./Skills.css";
 
+import lb from "/images/linebreaker.png";
+
 const skills = [
   { name: "MySQL Database Management", level: 4 },
   { name: "React.js", level: 4 },
