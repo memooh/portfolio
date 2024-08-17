@@ -4,6 +4,8 @@ import bookmarkd from "/images/projects/bookmarkd.png";
 import arshi from "/images/projects/arshi.png";
 import opulence from "/images/projects/opulence.png";
 import barbershop from "/images/projects/barbershop.jpg";
+import lr from "/images/lineright.png";
+
 
 const Project = () => {
   const projects = [
@@ -66,8 +68,21 @@ const Project = () => {
             </div>
           ))}
         </div>
-        <h5 className="mt-3">Explore my full portfolio of projects on <a href="https://github.com/memooh" className='gitLink' target="_blank" rel="noopener noreferrer">GitHub</a></h5>
+        <h5 className="mt-3">
+          Explore my full portfolio of projects on{" "}
+          <a
+            href="https://github.com/memooh"
+            className="gitLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </h5>
+        <div className="text-center d-none d-lg-block">
+          <img src={lr} alt="Break line" className="img-fluid" />
         </div>
+      </div>
     </section>
   );
 };
