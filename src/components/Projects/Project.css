@@ -1,5 +1,4 @@
 .projects {
-    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -30,8 +29,19 @@
     border: 0;
     padding: 0;
 }
+.projectLegend {
+    color: white;
+
+}
 
 
 .gitLink {
     color: #BFF4A6;
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        margin-top: 5%;
+    }
+
 }

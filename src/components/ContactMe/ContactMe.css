@@ -1,3 +1,4 @@
+
 .contactMe h1 {
     font-size: 62px;
     color: var(--color-grape);
@@ -24,4 +25,22 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #BFF4A6;
+}
+
+@media screen and (max-width: 768px) {
+    .contactMe {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #contactMeSection {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .contactMe h1 {
+        font-size: 42px;
+    }
+    .email {
+        font-size: 28px !important;
+    }
+
 }

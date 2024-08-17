@@ -24,7 +24,7 @@ const ContactMe = () => {
     ];
 
   return (
-    <section id="contactMeSection" className="contactMe">
+    <section id="contactMeSection" className="contactMe ">
       <div className="container text-center">
         <h1>
           For inquiries or professional opportunities, please contact me via

@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 480px) {
     .aboutMe {
+        margin-bottom: 10rem !important;
         margin-left: 5%;
         margin-right: 5%;
     }

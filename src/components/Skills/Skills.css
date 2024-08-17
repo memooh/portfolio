@@ -43,6 +43,8 @@
 
 .skillsLegend {
   font-size: 13px;
+  color: white;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -67,6 +69,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .skills {
+    margin-bottom: 10rem !important;
+
+  }
   .skillsTitle {
     margin-bottom: 30px;
   }

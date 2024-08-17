@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <section
       id="aboutMeSection"
-      className="aboutMe d-flex vh-100 align-items-center mt-5 mb-5"
+      className="aboutMe d-flex vh-75 align-items-center mt-5"
     >
       <div className="container">
         <h2 className="text-center mb-4">About Me</h2>

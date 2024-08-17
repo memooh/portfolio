@@ -1,4 +1,4 @@
-import "./Project.css";
+ import "./Project.css";
 
 import bookmarkd from "/images/projects/bookmarkd.png";
 import arshi from "/images/projects/arshi.png";
@@ -43,7 +43,7 @@ const Project = () => {
     },
   ];
   return (
-    <section id="projectsSection" className="projects mb-5">
+    <section id="projectsSection" className="projects mt-5">
       <div className="container">
         <h1 className="text-center projectsTitle">Personal Projects</h1>
         <div className="row">
@@ -68,7 +68,7 @@ const Project = () => {
             </div>
           ))}
         </div>
-        <h5 className="mt-3">
+        <h5 className="mt-3 projectLegend">
           Explore my full portfolio of projects on{" "}
           <a
             href="https://github.com/memooh"

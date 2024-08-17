@@ -35,7 +35,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skillsSection" className="skills mt-5 mb-5">
+    <section id="skillsSection" className="skills mt-5 ">
       <div className="container">
         <h2 className="text-center skillsTitle mt-5">Skills</h2>
         {[0, 4, 8].map((startIndex, rowIndex) => (
@@ -68,10 +68,13 @@ const Skills = () => {
           <br />
           Hover over each skill to view my current proficiency level, based on
           my own self-assessment.
+          <br />
+          This list represents a selection of my key skills. I have additional
+          competencies not listed here.
         </p>
-        <div className="text-center d-none d-lg-block">
-        <img src={lb} alt="Linebreaker" className="linebreaker" />
 
+        <div className="text-center d-none d-lg-block">
+          <img src={lb} alt="Linebreaker" className="linebreaker" />
         </div>
       </div>
     </section>
