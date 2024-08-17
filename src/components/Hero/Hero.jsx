@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { ReactTyped } from "react-typed";
 import "./Hero.css";
 
-import avatar from '/hero/avatar.png';
+import avatar from "/hero/avatar.png";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isLookingForJob, setIsLookingForJob] = useState(true);
 
   useEffect(() => {
     setIsVisible(true);
@@ -18,7 +19,11 @@ const Hero = () => {
       }`}
     >
       <div className="container text-center">
-        <img src={avatar} alt="Memoji of me | From Apple Iphone" className="img-fluid" />
+        <img
+          src={avatar}
+          alt="Memoji of me | From Apple Iphone"
+          className="img-fluid"
+        />
         <h1 className="mt-5">Hi! I'm Mehmet.</h1>
         <h4 className="mt-5">
           <ReactTyped
@@ -30,6 +35,11 @@ const Hero = () => {
             cursorChar="|"
           />
         </h4>
+        {isLookingForJob ? (
+          <h5 className="jobStatus mt-5">Currently looking for job opportunities</h5>
+        ) : (
+          <h5 className="jobStatus mt-5">Not currently seeking new opportunities</h5>
+        )}
       </div>
     </section>
   );

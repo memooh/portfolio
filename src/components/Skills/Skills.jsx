@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 
-import lb from "/images/linebreaker.png";
+import lb from "/images/lineleft.png";
 
 const skills = [
   { name: "MySQL Database Management", level: 4 },
@@ -69,6 +69,10 @@ const Skills = () => {
           Hover over each skill to view my current proficiency level, based on
           my own self-assessment.
         </p>
+        <div className="text-center d-none d-lg-block">
+        <img src={lb} alt="Linebreaker" className="linebreaker" />
+
+        </div>
       </div>
     </section>
   );
