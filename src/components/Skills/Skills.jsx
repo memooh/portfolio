@@ -35,7 +35,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="skills mt-5 mb-5">
+    <section id="skillsSection" className="skills mt-5 mb-5">
       <div className="container">
         <h2 className="text-center skillsTitle mt-5">Skills</h2>
         {[0, 4, 8].map((startIndex, rowIndex) => (

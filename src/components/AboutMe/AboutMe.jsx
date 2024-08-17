@@ -5,7 +5,7 @@ import lb from "/images/linebreaker.png";
 
 const AboutMe = () => {
   return (
-    <section className="aboutMe d-flex vh-100 align-items-center mt-5 mb-5">
+    <section id="aboutMeSection" className="aboutMe d-flex vh-100 align-items-center mt-5 mb-5">
       <div className="container">
         <h2 className="text-center mb-4">About Me</h2>
         <div className="row align-items-center">

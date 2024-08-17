@@ -1,0 +1,29 @@
+.nav-item, .nav-link, .navbar-brand {
+    color: var(--color-grape) !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: var(--color-grape) underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-thickness: 2px;
+    transition: color 0.3s, text-decoration-color 0.3s;
+}
+
+.nav-item .nav-link:hover {
+    color: #BFF4A6 !important;
+    text-decoration-color: #BFF4A6 !important;
+}
+
+.navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23A981FE' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+  .navbar-toggler {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
+
+.navbar-dark .navbar-collapse {
+    color: var(--color-grape) !important;
+}

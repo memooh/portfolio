@@ -41,7 +41,7 @@ const Project = () => {
     },
   ];
   return (
-    <section className="projects mb-5">
+    <section id="projectsSection" className="projects mb-5">
       <div className="container">
         <h1 className="text-center projectsTitle">Personal Projects</h1>
         <div className="row">
