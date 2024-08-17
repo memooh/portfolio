@@ -18,13 +18,16 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`} id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#aboutMeSection">About me</a>
+                            <a className="nav-link" href="#aboutMeSection">About Me</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#skillsSection">Skills</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#projectsSection">Personal projects</a>
+                        </li>                        
+                        <li className="nav-item">
+                            <a className="nav-link" href="#contactMeSection">Contact Me</a>
                         </li>
                     </ul>
                 </div>
