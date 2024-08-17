@@ -1,0 +1,84 @@
+.skillsButton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px var(--color-grape) solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 120px;
+  transition: background-color 0.3s ease;
+}
+
+.skillsTitle {
+  color: #ffffff !important;
+  margin-bottom: 80px;
+}
+
+.skill-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.skill-tooltip .skill-level {
+  visibility: hidden;
+  width: 200px;
+  background-color: var(--color-grape);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.skill-tooltip:hover .skill-level {
+  visibility: visible;
+  opacity: 1;
+}
+
+.skillsLegend {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .skillsButton {
+    padding: 8px 16px;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .skillsTitle {
+    margin-bottom: 40px;
+  }
+
+  .skill-tooltip .skill-level {
+    width: 160px;
+    margin-left: -80px;
+  }
+
+  .skillsLegend {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skillsTitle {
+    margin-bottom: 30px;
+  }
+
+  .skill-tooltip .skill-level {
+    width: 140px;
+    margin-left: -70px;
+  }
+
+  .skillsLegend {
+    font-size: 11px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

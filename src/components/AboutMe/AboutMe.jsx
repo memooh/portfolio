@@ -4,7 +4,7 @@ import avatar from '/hero/avatar.png';
 
 const AboutMe = () => {
   return (
-    <section className="aboutMe mt-5">
+    <section className="aboutMe mt-5 vh-100 d-flex align-items-center">
       <div className="container">
         <h2 className="text-center mb-4">About Me</h2>
         <div className="row align-items-center">

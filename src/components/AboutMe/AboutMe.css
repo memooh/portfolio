@@ -15,3 +15,11 @@
         padding: 0 15px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .aboutMe {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+}
