@@ -1,0 +1,32 @@
+.projects {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projects h1 {
+    color: white;
+}
+
+.projectsTitle {
+    margin-bottom: 50px;
+}
+
+.project h3 {
+    color: var(--color-grape);
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.project p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.projectButton {
+    background: transparent;
+    color: #BFF4A6;
+    border: 0;
+    padding: 0;
+}

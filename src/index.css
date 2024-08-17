@@ -14,6 +14,16 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.ttf') format('truetype-variations');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 
 :root {
   --heading-h1: 'Clash Display', sans-serif;  
@@ -24,6 +34,8 @@ body {
   font-family: 'Archivo', sans-serif;
   font-weight: normal;
   background-color: black;
+  animation: fadeIn 1s ease-out;
+
 }
 
 
@@ -32,4 +44,20 @@ h1, h2, h3 {
   font-weight: 700;
   font-size: 2.5rem;
   color: #333;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
